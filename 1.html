@@ -8,79 +8,99 @@
     <title>CV</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body size="A4">
     <header>
-        <img src="http://via.placeholder.com/300x300" alt="Photo" width="300" height="300">
-        <h1>Sviatoslav Dmytriiev</h1>
-        <p>Python Programmer</p>
+        <figure>
+            <img src="Sviatolav Dmytriiev.jpg" alt="Photo" width="150" height="150">
+            <figcaption>
+                <h1>Sviatoslav Dmytriiev</h1>
+                <p>Python Programmer</p>
+            </figcaption>
+        </figure>
     </header>
     <main>
         <div class="leftpanel">
-            <!-- TODO: Replace "-" with HTML & element -->
-            <!-- TODO: Add icons for each section -->
             <section>
-                <h2>Education</h2>
+                <h2><span class="emoji">📚</span>Education</h2>
                 <dl>
                     <dt>Kyiv College of Information Systems and Technologies,   Junior specialist in Software engineering</dt>
-                    <dd>2017 – 2021</dd>
-                    <dt>Kyiv National Economic University,   Bachelor’s degree in Computer Science</dt>
-                    <dd>2021 – 2023</dd>
+                    <dd>2017 &#45; 2021</dd>
+                    <dt>Kyiv National Economic University, Bachelor's degree in Computer Science</dt>
+                    <dd>2021 &#45; 2023</dd>
                 </dl>
             </section>
             <section>
-                <h2>Courses</h2>
+                <h2><span class="emoji">📝</span>Courses</h2>
                 <dl>
                     <dt>IT Academy STEP</dt>
-                    <dd>2015 – 2018</dd>
+                    <dd>2015 &#45; 2018</dd>
                 </dl>
             </section>
             <section>
-                <h2>Portfolio</h2>
-                <p>Github: https://github.com/kingchubz</p>
+                <h2><span class="emoji">⭐</span>Portfolio</h2>
+                <p>Github: <a href="https://github.com/kingchubz">https://github.com/kingchubz</a></p>
             </section>
         </div>
 
         <div class="rightpanel">
             <section>
                 <h2>Details</h2>
-                <ul>
+                <ul class="noprogressbarlist">
                     <li>Kyiv</li>
                     <li>Ukraine</li>
-                    <li><a href="tel:#">+380502740841</a></li>
-                    <li><a href="mailto:#">shinyhero777@gmail.com</a></li>
+                    <li><a href="tel:+380502740841">+380502740841</a></li>
+                    <li><a href="mailto:shinyhero777@gmail.com">shinyhero777@gmail.com</a></li>
                 </ul>
             </section>
 
             <section>
                 <h2>Soft Skills</h2>
-                <ul>
+                <ul class="noprogressbarlist">
                     <li>Keen to Details</li>
                     <li>Problem solver</li>
                     <li>Communicative</li>
                 </ul>
             </section>
 
-            <!-- TODO: Add progress bars -->
             <section>
                 <h2>Hard Skills</h2>
                 <ul>
-                    <li>Python</li>
+                    <li>
+                        Python
+                        <progress value="80" max="100"></progress>
+                    </li>
                     <li>Django</li>
+                    <progress value="70" max="100"></progress>
                     <li>PostgreSQL</li>
+                    <progress value="70" max="100"></progress>
                     <li>Docker</li>
+                    <progress value="60" max="100"></progress>
                     <li>Nginx</li>
+                    <progress value="60" max="100"></progress>
                     <li>Git</li>
-                    <li><abbr title="Hyper Text Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr></li>
+                    <progress value="70" max="100"></progress>
+                    <li>
+                        <abbr title="Hyper Text Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>/<abbr title="JavaScript">JS</abbr>
+                        <progress value="75" max="100"></progress>
+                    </li>
                 </ul>
             </section>
 
-            <!-- TODO: Add progress bars -->
             <section>
                 <h2>Languages</h2>
                 <ul>
-                    <li>Ukrainian</li>
-                    <li>Russian</li>
-                    <li>English</li>
+                    <li>
+                        Ukrainian
+                        <progress value="100" max="100"></progress>
+                    </li>
+                    <li>
+                        Russian
+                        <progress value="100" max="100"></progress>
+                    </li>
+                    <li>
+                        English
+                        <progress value="70" max="100"></progress>
+                    </li>
                 </ul>
             </section>
         </div>

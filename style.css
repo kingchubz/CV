@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@page {
+    size: A4;
+    margin: 0mm;
+}
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: lightgray;
+}
+
+body {
+    background-color: white;
+
+    width: 21cm;
+    height: 29.7cm;
+    
+    margin: 0 auto;
+
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #0060df;
+    color: whitesmoke;
+    print-color-adjust: exact;
+}
+
+header img {
+    width: 2cm;
+    height: 2cm;
+    float: left;
+    border-radius: 0.25cm;
+    margin-right: 0.5cm;
+}
+
+figure {
+    padding: 5mm;
+    display: flow-root;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 2cm;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftpanel, .rightpanel {
+    padding: 5mm;
+}
+
+.leftpanel {
+    width: 70%;
+}
+
+.rightpanel {
+    width: 30%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.emoji {
+    font-size: 1.5rem;
+}
+
+h2 {
+    margin-top: 5mm;
+}
+
+main p, dt, dd {
+    margin-top: 2mm;
+    padding-left: 9.5mm;
+}
+
+dd {
+    margin-top: 0;
+    color: #555;
+}
+
+.noprogressbarlist li {
+    margin-top: 1.5mm;
+}
+
+a {
+    text-decoration: none;
+    color: #0060df;
+}
